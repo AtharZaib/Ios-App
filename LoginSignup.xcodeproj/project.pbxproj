@@ -14,6 +14,11 @@
 		E54EDF8E216DD97F006910C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54EDF8C216DD97F006910C4 /* LaunchScreen.storyboard */; };
 		E54EDF99216DD97F006910C4 /* LoginSignupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EDF98216DD97F006910C4 /* LoginSignupTests.swift */; };
 		E54EDFA4216DD97F006910C4 /* LoginSignupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EDFA3216DD97F006910C4 /* LoginSignupUITests.swift */; };
+		E54EDFB2216DDC40006910C4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EDFB1216DDC40006910C4 /* SignInViewController.swift */; };
+		E54EDFB4216DDCAB006910C4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EDFB3216DDCAB006910C4 /* RegisterViewController.swift */; };
+		E54EDFB6216DDD0B006910C4 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EDFB5216DDD0B006910C4 /* DisplayViewController.swift */; };
+		E57E99A52174C1DA006ED178 /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E99A42174C1DA006ED178 /* RecordingsViewController.swift */; };
+		E57E99A72174C21C006ED178 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E99A62174C21C006ED178 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		E54EDF9F216DD97F006910C4 /* LoginSignupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginSignupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54EDFA3216DD97F006910C4 /* LoginSignupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupUITests.swift; sourceTree = "<group>"; };
 		E54EDFA5216DD97F006910C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54EDFB1216DDC40006910C4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		E54EDFB3216DDCAB006910C4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E54EDFB5216DDD0B006910C4 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		E57E99A42174C1DA006ED178 /* RecordingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
+		E57E99A62174C21C006ED178 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				E54EDF83216DD97E006910C4 /* AppDelegate.swift */,
 				E54EDF85216DD97E006910C4 /* ViewController.swift */,
 				E54EDF87216DD97E006910C4 /* Main.storyboard */,
+				E57E99A62174C21C006ED178 /* ProfileViewController.swift */,
+				E57E99A42174C1DA006ED178 /* RecordingsViewController.swift */,
+				E54EDFB5216DDD0B006910C4 /* DisplayViewController.swift */,
+				E54EDFB3216DDCAB006910C4 /* RegisterViewController.swift */,
+				E54EDFB1216DDC40006910C4 /* SignInViewController.swift */,
 				E54EDF8A216DD97F006910C4 /* Assets.xcassets */,
 				E54EDF8C216DD97F006910C4 /* LaunchScreen.storyboard */,
 				E54EDF8F216DD97F006910C4 /* Info.plist */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54EDFB6216DDD0B006910C4 /* DisplayViewController.swift in Sources */,
 				E54EDF86216DD97E006910C4 /* ViewController.swift in Sources */,
+				E57E99A52174C1DA006ED178 /* RecordingsViewController.swift in Sources */,
 				E54EDF84216DD97E006910C4 /* AppDelegate.swift in Sources */,
+				E57E99A72174C21C006ED178 /* ProfileViewController.swift in Sources */,
+				E54EDFB2216DDC40006910C4 /* SignInViewController.swift in Sources */,
+				E54EDFB4216DDCAB006910C4 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,7 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: UIViewController,UITextFieldDelegate {
     
     
     @IBOutlet weak var FirstNameTextField: UITextField!
@@ -81,6 +81,13 @@ class RegisterViewController: UIViewController {
     }
     
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        FirstNameTextField.resignFirstResponder()
+        LastNameTextField.resignFirstResponder()
+        PasswordTextField.resignFirstResponder()
+        EmailTextField.resignFirstResponder()
+        RetypePasswordTextField.resignFirstResponder()
+        return false
+    }
     
-
 }
